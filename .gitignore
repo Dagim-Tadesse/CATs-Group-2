@@ -49,7 +49,7 @@ env/
 dist/
 build-*/
 *.cbor
-*.json
+# Do not ignore all JSON globally; allow tracking config/package files
 
 # Aiken / smart-contracts
 smart-contracts/.cache/
